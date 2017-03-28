@@ -21,11 +21,18 @@ header{
     height: 100px;
     margin: 0 auto;
 }
+.header-nav{
+    float:left;
+}
 .header-ul1,.header-ul2{
     list-style:none;
     margin: 0;
     -moz-margin-start:0 ;
     line-height: 40px;
+    -webkit-margin-before: 0;
+    -webkit-margin-after:0 ;
+    -webkit-margin-end:0 ;
+    -webkit-padding-start:0 ;
 }
 .header-ul1{
     font-size: 14px;
@@ -42,11 +49,31 @@ header{
     color: #0653b6;
 }
 .header-img{
-    position:absolute;
-    left:1255px;
-    top: 5px;
+    float: right;
 }
 .header img{
     width: 103px;
     height: 114px;
+}
+
+/*第二屏*/
+.header2{
+    margin-top:2px;
+    width: 100%;
+    height: 50px;
+    background-color: #8e8e8e;
+}
+.header2-select{
+    width: 1200px;
+    margin:0 auto;
+}
+.header2 select{
+    height: 40px;
+    width: 184px;
+    background-color:#666;
+}
+option{
+    display: inline-block;
+    background-color:#8e8e8e ;
+    padding: 10px;
 }
