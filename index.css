@@ -77,3 +77,19 @@ option{
     background-color:#8e8e8e ;
     padding: 10px;
 }
+
+
+
+.carousel{
+    height: 500px;
+    margin-bottom: 50px;
+}
+.carousel .item{
+    height: 500px;
+}
+.carousel .item img{
+    width: 100%;
+}
+.divider{
+    margin: 40px 0;
+}
