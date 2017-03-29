@@ -21,11 +21,18 @@ header{
     height: 100px;
     margin: 0 auto;
 }
+.header-nav{
+    float:left;
+}
 .header-ul1,.header-ul2{
     list-style:none;
     margin: 0;
     -moz-margin-start:0 ;
     line-height: 40px;
+    -webkit-margin-before: 0;
+    -webkit-margin-after:0 ;
+    -webkit-margin-end:0 ;
+    -webkit-padding-start:0 ;
 }
 .header-ul1{
     font-size: 14px;
@@ -42,13 +49,33 @@ header{
     color: #0653b6;
 }
 .header-img{
-    position:absolute;
-    left:1255px;
-    top: 5px;
+    float: right;
 }
 .header img{
     width: 103px;
     height: 114px;
+}
+
+/*第二屏*/
+.header2{
+    margin-top:2px;
+    width: 100%;
+    height: 50px;
+    background-color: #8e8e8e;
+}
+.header2-select{
+    width: 1200px;
+    margin:0 auto;
+}
+.header2 select{
+    height: 40px;
+    width: 184px;
+    background-color:#666;
+}
+option{
+    display: inline-block;
+    background-color:#8e8e8e ;
+    padding: 10px;
 }
 
 
@@ -65,4 +92,75 @@ header{
 }
 .divider{
     margin: 40px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:0 3%;
+}
+.icon{
+    height:auto;
+    width:16%;
+    margin:4px 0px;
+    border:1px solid gray;
+    background-color: gray;
+    position: relative;
+}
+.a{
+    position: absolute;
+    bottom:10px;
+    left:10px;
+}
+
+.icon:hover{
+    background-color: white;
+    color:blue;
+}
+img{
+    width:100%;
+    height:100%;
+}
+
+.i{
+    width:49%;
+    height:400px;
+    border:1px solid red;
+}
+.box-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:0 3%;
+}
+@media only screen and (max-width: 1000px) {
+    .box{
+        width:94%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .icon{
+        height:auto;
+        width:24%;
+        border:1px solid red;
+    }
+    .i{
+        width:100%;
+    }
 }
