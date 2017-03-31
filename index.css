@@ -153,7 +153,16 @@ option{
     background-color: gray;
     position: relative;
 }
-.a{
+.icon-no{
+    height:auto;
+    width:16%;
+    margin:4px 0px;
+    border:1px solid gray;
+    background-color: gray;
+    position: relative;
+    color:white;
+}
+.car{
     position: absolute;
     bottom:10px;
     left:10px;
@@ -170,18 +179,34 @@ img{
 
 .i{
     width:49%;
-    height:400px;
+    height:300px;
     border:1px solid red;
+}
+.word{
+    font-size: 22px;
+margin-left: 5%;
+}
+.word a{
+    color:black;
+    text-decoration: none;
+}
+.details{
+    margin-left: 5%;
+}
+.details a{
+    color:gray;
+    text-decoration: none;
 }
 .box-2{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin:0 6%;
+    margin:0 10%;
 }
+
 @media only screen and (max-width: 1000px) {
     .box{
-        width:94%;
+        width:80%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -191,8 +216,18 @@ img{
         width:24%;
         border:1px solid red;
     }
+    .icon-no{
+        height:auto;
+        width:24%;
+        border:1px solid red;
+    }
     .i{
         width:100%;
+        height:auto;
+    }
+    .pic{
+       margin:0 5%;
+        height:auto;
     }
 }
 
