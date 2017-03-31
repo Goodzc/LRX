@@ -109,6 +109,7 @@ option{
 }
 
 
+
 /*第er屏*/
 .carousel{
     height: 85vh;
@@ -124,7 +125,62 @@ option{
 .divider{
     margin: 40px 0;
 }
+.pic-word{
+    width: 350px;
+    position: absolute;
+    left: 17%;
+    top:2%;
+}
+.pic-word h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.pic-word p{
+    font-size: 25px;
+    font-weight: 500;
 
+}
+.bn{
+    width: 77%;
+}
+.pic-word1{
+    width: 350px;
+    position: absolute;
+    left: 5%;
+    top:2%;
+    color: white;
+}
+.pic-word1 h1{
+
+    font-size: 50px;
+    font-weight: 700;
+
+}
+.pic-word1 p{
+    font-size: 25px;
+    font-weight: 500;
+}
+.bn1{
+    width: 77%;
+}
+.pic-word2{
+    width: 450px;
+    position: absolute;
+    left: 5%;
+    top:2%;
+    color: white;
+}
+.pic-word2 h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.pic-word2 p{
+    font-size: 25px;
+    font-weight: 500;
+}
+.bn2{
+    width: 75%;
+}
 
 
 
