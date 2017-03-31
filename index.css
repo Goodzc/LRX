@@ -138,7 +138,7 @@ option{
 .icon{
     height:auto;
     width:16%;
-    margin:4px 0px;
+    margin:4px 0;
     border:1px solid gray;
     background-color: gray;
     position: relative;
